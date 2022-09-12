@@ -7,6 +7,23 @@ knitr::opts_chunk$set(
 )
 
 
+## ----eval=FALSE---------------------------------------------------------------
+#  library(devtools)
+#  install_github("thebrisklab/singR")
+#  
+
+## ---- eval=FALSE--------------------------------------------------------------
+#  ld: warning: directory not found for option '-L/opt/R/arm64/gfortran/lib/gcc/aarch64-apple-darwin20.2.0/11.0.0'
+#  ld: warning: directory not found for option '-L/opt/R/arm64/gfortran/lib'
+#  ld: library not found for -lgfortran
+#  clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+## ---- eval=FALSE--------------------------------------------------------------
+#  FLIBS =  -L/opt/R/arm64/gfortran/lib/gcc/aarch64-apple-darwin20.2.0/11.0.0 -L/opt/R/arm64/gfortran/lib -lgfortran -lemutls_w -lm
+
+## ----eval=FALSE---------------------------------------------------------------
+#  FLIBS =  -L/usr/local/gfortran/lib/gcc/aarch64-apple-darwin20.2.0/11.0.0 -L/usr/local/gfortran/lib -lgfortran -lm
+
 ## ----eval=FALSE, tidy=TRUE----------------------------------------------------
 #  library(singR)
 #  data(exampledata)
