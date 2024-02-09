@@ -1,4 +1,4 @@
-64bc8ce87c08b35dd43d323b0fbb38c4 *DESCRIPTION
+9588c8682b10d6c5b3d032a281470098 *DESCRIPTION
 2ce8f7a8ee99922ac97a48d1a006bd6e *LICENSE
 184b925e6901d5921daff8e46fee9fc1 *NAMESPACE
 279b2868358b9ab057063175bdafb740 *R/Basic_functions.r
@@ -9,13 +9,13 @@ a6474e98497f542cb09ede1959dac03b *R/UpdateFunctions.R
 ba75e47b17b602ec4400ab10d96b177d *R/graph.R
 411cbec8da277715642fdcbbda0be93a *R/jngcaFunctions.R
 8000eea0efcd39434b30d5b6fd67085d *R/lngca.R
-44e718131bc677be42f3e8fa8b258d15 *R/singR.R
-3d6eb5146cf79a87bd724c6349783bf5 *build/vignette.rds
+c292086a1965da39e8cf9bd19c03cf0d *R/singR.R
+77ecd3987ed48f97e8cbb8f1c07bc17e *build/vignette.rds
 4a047a124e8a1f440cd345d95e21dd92 *data/exampledata.rda
-a458415ce600887ce8556b6ed27a7e2c *inst/CITATION
-2a0d7495754e920a25d2ef7cc4983ec8 *inst/doc/singR-tutorial.R
+f4986b9818854e0ded85a1e7d37d944b *inst/CITATION
+95fa15978ca158495eed811e439c5203 *inst/doc/singR-tutorial.R
 e48ce8c92de381e53d0bf0136cdbb233 *inst/doc/singR-tutorial.Rmd
-d34ef2c0029f3addbda0d706984a16b3 *inst/doc/singR-tutorial.html
+ef3e7809c8669f0b6d5fe89f9240e175 *inst/doc/singR-tutorial.html
 5b34e71c5a0039d8cd3f0bea2469a773 *man/NG_number.Rd
 37da5a50f987fff7757c3b50045fd4a9 *man/angleMatchICA.Rd
 8dda6689bdb36a5445ad3c93afcf993a *man/aveM.Rd
@@ -43,8 +43,8 @@ ec7941355823dcafd57b1ca7fbad9f9f *man/matchICA.Rd
 cbf11fba7a967a8c09766ec25d2405fa *man/vec2net.Rd
 b9b740b70b03e05e07eef03e7813d8b9 *man/whitener.Rd
 0110fc266cf7866526702e64417c3ccd *src/Curvilinear.cpp
-e4a9a47c4a3aca98677ab8b16336e5de *src/Makevars
-e4a9a47c4a3aca98677ab8b16336e5de *src/Makevars.win
+c89d6b95d18721894ab45341d0fbc7a6 *src/Makevars
+c89d6b95d18721894ab45341d0fbc7a6 *src/Makevars.win
 56a146890a9f9717c8444046ff09b075 *src/RcppExports.cpp
 2950d8e59ca018b7632ef0a21c00fc23 *src/code.cpp
 f24ed6fa210a767cff310c1da4b72e86 *tests/testthat.R

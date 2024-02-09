@@ -1,15 +1,16 @@
 citHeader("To cite {singR} in publications use:")
 
 singR_citations <- c(
-	bibentry(
-		bibtype      = "Article",
-		title        = "singR: A package of Simultaneous non-Gaussian Component Analysis for data integration in neuroimaging",
-		author       = personList(
-			as.person("Liangkang Wang"),
-			as.person("Irina Gaynanova"),
-			as.person("Benjamin Risk")
-		),
-		journal      = "Journal",
-		year         = "2022"
-	)
+    bibentry(
+        bibtype = "Article",
+        title = "singR: A Package of Simultaneous Non-Gaussian Component Analysis for Data Integration in Neuroimaging",
+        author = c(
+            person("Liangkang", "Wang"),
+            person("Irina", "Gaynanova"),
+            person("Benjamin", "Risk")
+        ),
+        journal = "RJournal",
+        year = "2023",
+        url = "https://arxiv.org/abs/2211.05221"
+    )
 )
