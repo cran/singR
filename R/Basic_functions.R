@@ -300,6 +300,7 @@ SimTwoNorms <- function(n.samples, distribution=c('mix-sub','mix-super'),snr,noi
 #' @export
 #'
 #' @examples
+#' \donttest{
 #' spmwm = 3*matrix(rnorm(100000),nrow=100)+1
 #' dim(spmwm)
 #' apply(spmwm,1,mean) # we want these to be 0
@@ -310,6 +311,8 @@ SimTwoNorms <- function(n.samples, distribution=c('mix-sub','mix-super'),snr,noi
 #' max(abs(apply(spmwm_cp,1,mean)))
 #' max(abs(apply(spmwm_cp,2,mean)))
 #' max(abs(apply(spmwm_cp,2,sd)-1))
+#'
+#' }
 standard <- function(data,dif.tol=1e-03,max.iter=10){
   row_mean_max = max(abs(apply(data,1,mean)))
   col_mean_max = max(abs(apply(data,2,mean)))

@@ -10,7 +10,6 @@
 #' @return a net matrx
 #' @export
 #'
-#' @examples net = vec2net(1:10)
 vec2net = function(invector,make.diag=1) {
   #invector: choose(p,2) x 1, where p is the number of nodes
   nNode = (1 + sqrt(1+8*length(invector)))/2

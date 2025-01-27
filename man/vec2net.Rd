@@ -19,6 +19,3 @@ a net matrx
 Create network matrices from vectorized lower diagonals
 \code{vec2net} transfer the matrix vectorized lower diagonals into net to show the component image.
 }
-\examples{
-net = vec2net(1:10)
-}

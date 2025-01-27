@@ -10,7 +10,7 @@ knitr::opts_chunk$set(
 ## ----eval=FALSE---------------------------------------------------------------
 #  library(devtools)
 #  install_github("thebrisklab/singR")
-#  
+#  install.packages("singR")
 
 ## ----eval=FALSE---------------------------------------------------------------
 #  ld: warning: directory not found for option '-L/opt/R/arm64/gfortran/lib/gcc/aarch64-apple-darwin20.2.0/11.0.0'

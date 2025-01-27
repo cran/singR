@@ -56,5 +56,5 @@ a list of matrices:
 }
 }
 \description{
-The curvilinear algorithm is modified from \href{https://www.semanticscholar.org/paper/A-feasible-method-for-optimization-with-constraints-Wen-Yin/d419879cdb80a87c3b7ab88e9f7478c1e70780ca}{Wen and Yin paper}.
+The curvilinear algorithm is modified from \href{https://link.springer.com/article/10.1007/s10107-012-0584-1}{Wen and Yin paper}.
 }

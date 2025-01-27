@@ -45,7 +45,7 @@ calculateG <- function(U, DataW, invL, A, rho, alpha = 0.8, r0 = nrow(U)){
 # Curvilinear algorithm with r0 joint components
 #' Curvilinear algorithm with r0 joint components
 #'
-#' The curvilinear algorithm is modified from \href{https://www.semanticscholar.org/paper/A-feasible-method-for-optimization-with-constraints-Wen-Yin/d419879cdb80a87c3b7ab88e9f7478c1e70780ca}{Wen and Yin paper}.
+#' The curvilinear algorithm is modified from \href{https://link.springer.com/article/10.1007/s10107-012-0584-1}{Wen and Yin paper}.
 #'
 #' @param Ux Matrix with n.comp x n, initial value of Ux, comes from greedyMatch.
 #' @param Uy Matrix with n.comp x n, initial value of Uy, comes from greedyMatch.
@@ -161,7 +161,7 @@ curvilinear <- function(Ux, Uy, xData, yData, invLx, invLy, rho, tau = 0.01, alp
 ### curvilinear_c function with r0 joint components
 #' Curvilinear algorithm based on C code with r0 joint components
 #'
-#' #' The curvilinear algorithm is modified from \href{https://www.semanticscholar.org/paper/A-feasible-method-for-optimization-with-constraints-Wen-Yin/d419879cdb80a87c3b7ab88e9f7478c1e70780ca}{Wen and Yin paper}.
+#' #' The curvilinear algorithm is modified from \href{https://link.springer.com/article/10.1007/s10107-012-0584-1}{Wen and Yin paper}.
 #'
 #' @param Ux Matrix with n.comp x n, initial value of Ux, comes from greedyMatch.
 #' @param Uy Matrix with n.comp x n, initial value of Uy, comes from greedyMatch.
